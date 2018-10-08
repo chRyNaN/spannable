@@ -1,6 +1,8 @@
 # spannable
 A Kotlin Common library for defining spannable objects within text.
 
+This library is accessible using [Jitpack](https://jitpack.io/#chRyNaN/spannable/v1.0.0-SNAPSHOT): [![](https://jitpack.io/v/chRyNaN/spannable.svg)](https://jitpack.io/#chRyNaN/spannable)
+
 ## Description
 A `Span` is an interface defining start and stop indices that it should be applied to within a text.
 
