@@ -1,11 +1,4 @@
-pluginManagement {
-    resolutionStrategy {
-        eachPlugin {
-            if (requested.id.id == "kotlin-platform-common") {
-                useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:${requested.version}")
-            }
-        }
-    }
-}
 rootProject.name = 'spannable'
-
+include 'spannable-common'
+include 'spannable-jvm'
+include 'spannable-js'
